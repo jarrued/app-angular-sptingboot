@@ -12,7 +12,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/usuarios")
-@CrossOrigin(origins = "*")  // Permitir llamadas desde Angular
+
 public class UsuarioController {
 
     @Autowired
